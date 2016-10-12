@@ -8,6 +8,6 @@
     tasks:
 
       - junos_get_facts:
-          host: "{{ inventory_hostname }}"
+          host: "{{ ip }}"
           user: "ntc"
           passwd: "ntc123"
