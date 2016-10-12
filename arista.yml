@@ -11,5 +11,10 @@
           host: "{{ ip }}"
           username: "ntc"
           password: "ntc123"
-          transport: "cli"
+          transport: "https"
+        register: "all_facts"
+
+      - debug:
+          var: "all_facts"
+
 
