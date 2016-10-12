@@ -8,7 +8,7 @@
     tasks:
 
       - eos_facts:
-          host: "{{ ip_info[inventory_hostname] }}"
+          host: "{{ ip }}"
           username: "ntc"
           password: "ntc123"
           transport: "cli"
